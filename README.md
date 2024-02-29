@@ -1,0 +1,1 @@
+A Web-site created by my and my group in the first year of the college using HTML, CSS, BootStrap and JavaScript.Its objective is to present the annual project in the first year of my college, the construction of a bluetooth-controlled robot and show a idea of a startup and show the idea of ​​a startup that my group and I created. I hope you like the website.
