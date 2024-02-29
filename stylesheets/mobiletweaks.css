@@ -1,0 +1,177 @@
+                                            /* ESSA STYLESHET É PARA GARANTIR QUE ELEMENTOS FUNCIONEM COMO DEVERIAM EM TELAS MENORES */
+@media (max-width: 768px) {
+/* ESTILOS DE FONTE E TEXTOS */
+    .text-box-subtitle {
+        font-size: 0.8rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .video-text h1.texto1-video-final {
+        font-size: 0.6rem;
+        margin-top: 1rem;
+    }
+    .texto2-video-final {
+        font-size: 0.6rem;
+    }
+    .emailLabel {
+        font-size: 0.5rem;
+    }
+    .video-text p.textoVideoContato {
+        font-size: 0.5rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .video-text p {
+        font-size: 0.875rem;
+    }
+    #emailHelp {
+        font-size: 0.3rem;
+    }
+    .btn-form {
+        font-size: 0.5rem;
+        padding: 2px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+/* AJUSTES DE PADDING E MARGEM */
+    .text-aphelios,
+    .icon-aphelios {
+        margin-left: 0.3vh;
+    }
+    .container-cards .card {
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .icon-nav {
+        margin-left: 1rem;
+    }
+    .text-galeria {
+        margin-left: 4vh;
+    }
+    footer .aphelios-icon {
+        width: 50px;
+        margin-left: 1rem;
+    }
+    footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+    .d-flex a:not(:last-child) {
+        margin-right: 10px; 
+    }
+    
+/* AJUSTES DE POSIÇÃO E DISPLAY */
+    .container-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-text {
+        display: inline-block;
+        position: static;
+        transform: none;
+        padding-left: 10px;
+        top: auto;
+        left: auto;
+        width: auto;
+        background-color: black;
+        border-radius: 0;
+    }
+    .overlay-text {
+        top: 15%;
+        font-size: 2rem;
+        max-width: 50%;
+    }
+    .text-boxes {
+        top: 57%;
+    }
+    .text-box {
+        font-size: 0.6rem;
+    }
+    .text-box-title {
+        top: 2rem;
+    }
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-next {
+        height: auto;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .txt-svg  {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    .svg-pq {
+        padding-top: 1rem;
+        margin: 0;
+    }
+
+    .txt-porque {
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .margem-mobile-vid-2 {
+        margin-top: 5rem;
+        margin-bottom: 0;
+    }
+
+    .txt-final {
+        font-size: 2rem;
+    }
+
+    .txt-carrousel-1 {
+        font-size: 0.7rem;
+    }
+
+    .carousel-indicators {
+        position: sticky;
+    }
+    .carousel-indicators .active {
+        position: sticky;
+    }
+/* EFEITOS DE HOVER E TRANSIÇÕES */
+    .nav-link:hover {
+        box-shadow: none;
+        border-radius: 0;
+        transform: none;
+        transition: box-shadow 0.5s ease, transform 1s ease;
+        color: var(--color-white);
+    }
+    .nav-link:hover .icon-text {
+        display: none;
+        color: var(--color-white);
+    }
+    
+/* ESTILOS DE MIDIA E DOS ICONES */
+    .icon-vid {
+        font-size: 1.25rem;
+    }
+    .vid-robocup {
+        max-height: 50vh !important;
+        max-width: 100vw;
+    }
+    .nav-link .icon-text {
+        color: white;
+        margin-left: 1rem;
+    }
+
+/* ESTILOS DO FORM */
+    .form-control {
+        font-size: 0.1rem;
+    }
+}

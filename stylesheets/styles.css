@@ -1,0 +1,647 @@
+/* CORES PRIMARIAS */
+:root {
+    --primary-color: #2935d1;
+    --secondary-color: #e3e3e3;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulseUnderline {
+
+    0%,
+    100% {
+        width: 0;
+        left: 50%;
+        opacity: 1;
+    }
+
+    50% {
+        width: 100%;
+        left: 0;
+        opacity: 1;
+    }
+
+    75% {
+        width: 90%;
+        left: 5%;
+        opacity: 0.8;
+    }
+
+    85% {
+        width: 100%;
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+/* OVERWRITE NA COR DO LINK ATIVO NO BS */
+.nav-link:active,
+.nav-link:focus,
+.nav-link:visited {
+    color: var(--white-color);
+}
+
+/* ESTILOS DA BARRA DE ROLAGEM */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--white-color);
+    box-shadow: 0 0 100px #0d00ff, 0 0 80px #007bff, 0 0 60px #4000ff, 0 0 40px #0270ff, 0 0 35px #2870ff;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--black-color);
+    border-radius: 4px;
+}
+
+/* ESTILOS GERAIS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: var(--black-color);
+}
+
+body .container-img-next .img-next {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ESTILOS PARA OS TITULOS DAS SECOES */
+.section-title {
+    position: relative;
+    text-align: center;
+    color: var(--white-color);
+    padding-bottom: 5px;
+    font-size: 2.5em;
+    text-shadow: 0 7px 7px rgb(0, 0, 255);
+    overflow: hidden;
+}
+
+.section-title:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: darkblue;
+    transition: width 0.3s ease-in-out;
+    animation: pulseUnderline 7s infinite;
+}
+
+
+/* CORES E VARIAVEIS */
+:root {
+    --color-white-transparent: rgba(255, 255, 255, 0.597);
+    --color-white-very-transparent: rgba(255, 255, 255, 0.242);
+    --color-white: #ffffff;
+    --shadow-color-effect: 0 0 15px #0d00ff, 0 0 20px #007bff, 0 0 25px #4000ff, 0 0 30px #0270ff, 0 0 35px #2870ff;
+}
+
+/* ESTILOS PARA A BARRA DE NAVEGAÇÃO */
+.icon-text {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    border-radius: 50px;
+    width: 120px;
+    text-align: center;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.7rem;
+}
+
+.icon-nav {
+    color: white;
+}
+
+.nav-link {
+    position: relative;
+    color: var(--color-white-transparent);
+    transition: transform 1s ease, box-shadow 1s ease;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    box-shadow: var(--shadow-color-effect);
+    border-radius: 25px;
+    transform: scale(1.3);
+    transition: box-shadow 0.5s ease, transform 1s ease;
+    color: var(--color-white);
+}
+
+.nav-link:hover .icon-text {
+    display: block;
+    color: var(--color-white);
+}
+
+.navbar.bg-body-tertiary {
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-toggler {
+    border-color: white;
+    margin-left: 1rem;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* ESTILOS PARA A PRIMEIRA SEÇÃO (LOGO, ONDA E TEXTO) */
+.onda {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-onda {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.container-onda::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    z-index: 2;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 5;
+}
+
+.texto-centro {
+    margin-top: 20px;
+}
+
+
+
+.text-aphelios,
+.btn-pagina {
+    animation: fadeIn 3s forwards;
+    opacity: 0;
+}
+
+.icon-aphelios {
+    animation-delay: 1s;
+    padding-bottom: none;
+    margin-top: 5rem;
+    transition: transform 60s;
+    animation: fadeIn 2s forwards;
+    opacity: 0;
+}
+
+.icon-aphelios:hover {
+    transform: scale(3);
+}
+
+.text-aphelios {
+    animation-delay: 3.5s;
+    padding-bottom: 2rem;
+}
+
+.btn-pagina {
+    background-color: transparent;
+    color: var(--color-white-very-transparent);
+    padding-top: 0;
+    font-size: 0.8rem;
+    animation-delay: 4s;
+    transition: transform 1s ease, color 1s ease;
+}
+
+.btn-pagina:hover {
+    transform: scale(1.5);
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.btn-pagina:focus {
+    outline: none;
+    border: none;
+}
+
+
+/* ESTILOS DO TEXTO DO CARROSSEL E DOS INDICADORES*/
+.text-meio {
+    color: #aeaeae;
+}
+
+.text-info {
+    margin-bottom: -2vw;
+}
+
+.highlight {
+    color: #1525ff;
+}
+
+.carousel-indicators {
+    bottom: 2.5px;
+    position: absolute;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(26, 26, 253);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+}
+
+
+/* ESTILOS DOS CARDS */
+.card-img-top {
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 80px;
+}
+
+.card {
+    transition: box-shadow 2s ease, transform 2s ease;
+    border-radius: 80px;
+    background-color: black;
+    color: rgba(128, 128, 128, 0.675);
+}
+
+.card p {
+    color: rgba(128, 128, 128, 0.418);
+    transition: transform 1s;
+    font-size: 0.6rem;
+}
+
+.card:hover p {
+    color: white;
+    transform: scale(1.1);
+}
+
+.card:hover p span {
+    color: rgb(44, 83, 255);
+    transform: scale(1.1);
+    font-weight: 1000;
+}
+
+.card h5 {
+    transition: transform 0.5s;
+    margin-bottom: 1rem;
+}
+
+.card:hover h5 {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+    color: #007bff;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px #0d00ff, 0 0 20px #2600ff, 0 0 25px #000000,
+        0 0 30px #0761d6, 0 0 35px #6600ff;
+    border-radius: 80px;
+    transition: box-shadow 3s ease;
+    transform: scale(1.1);
+    transition: transform 1s;
+    color: white;
+}
+
+/* ESTILOS DOS VIDEOS */
+.videoframe {
+    transition: box-shadow 4s ease-in-out, transform 4s ease-in-out;
+}
+
+
+.video-1 {
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    max-width: 100%;
+}
+
+.video-1 iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-main {
+    color: var(--primary-color);
+}
+
+/* ESTILOS DO ACCORDEON */
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: black;
+    transform: scale(1.1);
+}
+
+.accordion {
+    --bs-accordion-bg: black;
+}
+
+.accordion-button {
+    color: white;
+}
+
+
+
+/* ESTILOS DO FORMULARIO */
+.btn-form:hover {
+    box-shadow: 0 0 5px #0d00ff, 0 0 20px #6eb0f7, 0 0 25px #000000,
+        0 0 30px #0761d6, 0 0 35px #6600ff;
+    border-radius: 10px;
+    transform: scale(1.3);
+    color: #4995f8;
+    background-color: transparent;
+    font-weight: 1000;
+}
+
+.btn-form {
+    transition: transform 1s ease, box-shadow 1s ease;
+}
+
+/* ESTILOS SEÇÃO ROBOCUP E FIAP NEXT */
+.fiap-txt {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.txt-final {
+    font-size: 5rem;
+}
+
+.vid-robocup {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.vid-robocup iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), -1px -1px 2px rgba(0, 0, 0, 0.3),
+        1px -1px 2px rgba(0, 0, 0, 0.3), -1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.robocup-txt {
+    font-size: 4rem;
+}
+
+.text-box-subtitle {
+    font-size: 1.2rem;
+}
+
+.img-next {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+}
+
+.container-img-next {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    height: 100vh;
+}
+
+.container-img-next::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.8));
+    z-index: 2;
+}
+
+.vid-robocup {
+    width: 100%;
+    height: 45rem;
+    border: 0;
+}
+
+.text-boxes {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+}
+
+.text-box-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    transition: box-shadow 1s ease, transform 1s ease;
+}
+
+.text-box-title:hover {
+    box-shadow: 0 0 15px #ff0000e7, 0 0 20px #5c007d, 0 0 25px #f75656,
+        0 0 30px #0270ff, 0 0 35px #2870ff;
+    border-radius: 55px;
+    transform: scale(1.3);
+    color: white;
+}
+
+.btn-si {
+    margin-bottom: -20vh;
+    background-color: transparent;
+    color: grey;
+    border-radius: 50px;
+    padding: 0.5rem;
+}
+
+.content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+/* BOTAO VOLTAR PARA O INICIO */
+.btn-final {
+    transition: transform 1s ease, color 1s ease;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.btn-final:hover {
+    transform: scale(1.3);
+    color: white;
+}
+
+
+
+/* ESTILOS DO FOOTER */
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer.bg-dark {
+    background-color: #1a1a1a;
+
+}
+
+footer .aphelios-icon {
+    width: 6rem;
+}
+
+footer .FIAP-icon {
+    width: 16rem;
+
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+footer h5 {
+    font-weight: 600;
+    border-bottom: 3px solid #2935d1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: gray;
+}
+
+footer a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--primary-color);
+    transition: all 0.3s;
+    transform: translateX(-50%);
+}
+
+footer a:hover::before {
+    width: 100%;
+}
+
+footer a:hover {
+    color: white;
+}
+
+
+/* ESTILOS PARA O TEXTO DE INTRODUÇÃO DA PAGINA */
+.txt-intro {
+    display: inline-block;
+    position: relative;
+    transition: transform 1s ease;
+}
+
+.txt-intro::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background-color: blue;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.txt-intro:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.txt-intro:hover::after {
+    width: 100%;
+    left: 0;
+}

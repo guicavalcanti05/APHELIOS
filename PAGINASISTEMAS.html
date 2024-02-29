@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+                                                        <!-- PAGINA SECUNDARIA (SPRINT SISTEMAS DE INFORMAÇÃO) -->
+<!-- FAVICON -->
+    <link rel="icon" href="./images/Misc/favicon-16x16.png" type="image/png">
+<!-- TITULO -->
+    <title>APHELIOS | SISTEMAS DE INFORMAÇÃO</title>
+<!-- CHAMADA ICONES DO BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CHAMADA GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- CHAMADA STYLESHEETS -->
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="stylesheet" href="./stylesheets/stylesSI.css">
+    <link rel="stylesheet" href="./stylesheets/mobiletweaks.css">
+</head>
+
+<body>
+<!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary navbar-horizontal">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+<!-- ICONE SOBRE A EMPRESA -->
+                <li class="nav-item mt-2">
+                    <a class="nav-link" aria-current="page" href="#sobre">
+                        <i class="bi bi-briefcase fs-3 icon-nav"></i>
+                        <span class="icon-text">Sobre Nós</span>
+                    </a>
+                </li>
+<!-- ICONE INFORMACOES -->
+                <li class="nav-item mt-2">
+                    <a href="#produtos" class="nav-link">
+                        <i class="bi bi-tags fs-3 icon-nav"></i>
+                        <span class="icon-text">Produtos</span>
+                    </a>
+                </li>
+<!-- ICONE DE INICIO (HOME) -->
+                <li class="nav-item">
+                    <a class="nav-link mt-2" href="#">
+                        <i class="bi bi-house fs-3 icon-nav "></i>
+                        <span class="icon-text">Inicio</span>
+                    </a>
+                </li>
+<!-- ICONE EQUIPE -->
+                <li class="nav-item">
+                    <a class="nav-link mt-2" href="#investimentos">
+                        <i class="bi bi-clipboard-data fs-3 icon-nav"></i>
+                        <span class="icon-text">Investimento</span>
+                    </a>
+                </li>
+<!-- ICONE ROBOCUP | FIAP NEXT -->
+                <li class="nav-item">
+                    <a class="nav-link mt-2" href="#contato2">
+                        <i class="bi bi-envelope fs-3 icon-nav "></i>
+                        <span class="icon-text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- SEÇÃO DE ABERTURA (IMAGEM DE ONDA | LOGO APHELIOS E TEXTO) -->
+    <section id="inicio">
+        <div class="container-fluid container-onda " id="icons-container">
+            <img src="./images/Misc/onda.jpg" alt="IMAGEM DE ONDA PARA BACKGROUND" class="img-fluid onda" />
+            <div class="overlay-content">
+<!-- IMAGEM DE FUNDO AZUL -->
+                <img class="icon-aphelios img-fluid" src="./images/Misc/apheliosLOGO.png" alt="LOGO APHELIOS INICIO" />
+<!-- LOGO APHELIOS E TEXTO -->
+                <h1 class="text-center text-white text-aphelios section-title MT-5 fw-bold">
+                    A&nbsp;P&nbsp;H&nbsp;E&nbsp;L&nbsp;I&nbsp;O&nbsp;S
+                </h1>
+<!-- BOTOES SPRINT -->
+                <div class="d-flex align-items-center justify-content-center mt-5">
+                    <a href="index.html">
+                        <button class="btn btn-pagina">SPRINT WEB STANDARDS<br><i
+                                class="bi bi-arrow-bar-up"></i></button>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center btn-sprint">
+                    <a href="#sobre">
+                        <button class="btn btn-pagina text-white fw-bold">SPRINT SISTEMAS DE INFORMAÇÃO<br><i
+                                class="bi bi-arrow-bar-down"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- PRIMEIRA SEÇÃO (SOBRE NÓS) -->
+    <section id="sobre">
+        <h1 class="section-title text-center mt-4 fw-bold">INTRODUÇÃO</h1>
+        <div class="container my-5">
+            <div class="row">
+<!-- COLUNA DA ESQUERDA | TEXTO, SUBTEXTO E PARAGRAFO -->
+                <div class="col-md-6 mt-4">
+                    <h2 class="txt-title text-primary fw-bold mt-3">Quem somos nós?</h2>
+                    <h5 class="text-secondary">Um pouco sobre a missão do time <span
+                            class="text-primary fw-bold">Aphelios</span>.</h5>
+                    <p class="text-white">Aphelios é uma startup dedicada à promoção da robótica educacional
+                        para crianças e adolescentes, <span class="text-primary">acreditamos e apostamos no poder
+                            transformador da tecnologia na educação.</span> <br> Através do nosso projeto <span
+                            class="text-primary fw-bold">"FUTURE"</span>, proporcionamos aulas práticas e uma alta gama
+                        de projetos educacionais que envolvem montagem de robôs, capacitando jovens com habilidades
+                        técnicas valiosas.</p>
+                </div>
+<!-- COLUNA DA ESQUERDA | CARROSSEL COM 3 IMAGENS -->
+                <div class="col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+<!-- PRIMEIRO ITEM (ROBO APHELIOS X) -->
+                            <div class="carousel-item active">
+                                <div class="border-rounded">
+                                    <img src="./images/SI/CARROSSEL INTRO/robo1.jpg" class="d-block w-100 car-img"
+                                        alt="PROTOTIPO ROBO APHELIOS X">
+                                    <div class="text-center bg-black py-2 text-white caption-title"><span
+                                            class="text-primary">APHELIOS X</span> |
+                                        Equipado com o chip APX-100.</div>
+                                </div>
+                            </div>
+<!-- SEGUNDO ITEM (CRIANCAS MONTANDO ROBO) -->
+                            <div class="carousel-item">
+                                <div class="border-rounded">
+                                    <img src="./images/SI/CARROSSEL INTRO/circuitos1.jpg" class="d-block w-100 car-img"
+                                        alt="CRIANÇAS MONTANDO ROBO">
+                                    <div class="text-center bg-black py-2 text-white caption-title">Alunos do projeto
+                                        <span class="text-primary">FUTURE</span> desenvolvendo projetos em sala.</div>
+                                </div>
+                            </div>
+<!-- TERCEIRO ITEM (CHIP APX-100) -->
+                            <div class="carousel-item">
+                                <div class="border-rounded">
+                                    <img src="./images/SI/CARROSSEL INTRO/circuitos3.jpg" class="d-block w-100 car-img"
+                                        alt="IMAGEM DO CHIP APX-100">
+                                    <div class="text-center bg-black py-2 text-white caption-title">Nosso mais poderoso
+                                        chip, o <span class="text-primary">APX-100</span>.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+    </section>
+<!-- SEGUNDA SEÇÃO (PRODUTOS) -->
+    <section id="produtos" class="py-5">
+        <h1 class="text-white section-title fw-bold">PRODUTOS</h1>
+        <h3 class="text-center text-secondary container fs-4 mt-4">Nossos cientistas e desenvolvedores trabalham duro
+            para oferecer soluções <n class="text-primary">modernas</n> e <span class="text-primary">criativas</span>
+            para a robótica, aqui estão alguns dos projetos que desenvolvemos ao longo dos anos:</h3>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+<!-- PRIMEIRO CARD -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/SI/PRODUTOS/produto1.jpg" class="card-img-top"
+                            alt="FOTO DO APH MINI | CARD ESQUERDA">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center fw-bold mt-3">APH-MINI</h5>
+                            <p class="card-text text-center p-2">Um pequeno assistente digital, além de caber na palma
+                                da sua mão, possui sistema de <span>reconhecimento de voz</span> para auxiliar o usuário
+                                com tarefas
+                                do dia a dia.</p>
+                            <button class="btn btn-outline-primary rounded-4">Saiba Mais</button>
+                        </div>
+                    </div>
+                </div>
+<!-- TERCEIRO CARD (NO CENTRO DA PAGINA) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/SI/PRODUTOS/produto3.jpg" class="card-img-top"
+                            alt="FOTO DO APHELIOS X | CARD DO MEIO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center fw-bold mt-3">APHELIOS X</h5>
+                            <p class="card-text text-center p-2">Nosso queridinho X, é o projeto mais avançado que
+                                fizemos, conta com uma alta gama de funções e <span>inteligencia artificial</span>,
+                                equipado com
+                                nosso poderoso chip <span>APX-100</span>.</p>
+                            <button class="btn btn-outline-primary rounded-4">Saiba Mais</button>
+                        </div>
+                    </div>
+                </div>
+<!-- SEGUNDO CARD (A DIREITA) -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/SI/PRODUTOS/produto2.jpg" class="card-img-top"
+                            alt="FOTO DO APH-MOD | CARD DIREITA">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center fw-bold mt-3">APH-MOD</h5>
+                            <p class="card-text text-center p-2">Completamente customizável. Esse protótipo tem como
+                                ideia principal a <span>modularização</span>, onde diferentes peças são acopladas a
+                                conectores
+                                padronizados para mudar as funções do robo.</p>
+                            <button class="btn btn-outline-primary rounded-4">Saiba Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- TERCEIRA SEÇÃO (ROBO DA COMPETIÇÃO FIAP) -->
+    <section id="sobre">
+        <div class="container my-5">
+            <div class="row">
+<!-- COLUNA DA ESQUERDA | CARROSSEL COM 3 IMAGENS -->
+                <div class="col-md-6">
+                    <div id="carouselSecondSection" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+<!-- PRIMEIRO ITEM (BLUEPRINT DO ROBO FIAP) -->
+                            <div class="carousel-item active">
+                                <div class="border-rounded">
+                                    <img src="./images/WEB/CARROUSSEL-WEB/foto0.jpg" class="d-block w-100 car-img"
+                                        alt="BLUEPRINT DO ROBO FEITO PARA A ROBOCUP">
+                                    <div class="text-center bg-black py-2 text-white caption-title">Esquema do robo
+                                        Aphelios feito por estagiários alunos da FIAP.</div>
+                                </div>
+                            </div>
+<!-- SEGUNDO ITEM (FOTO DO ROBO PRONTO) -->
+                            <div class="carousel-item">
+                                <div class="border-rounded">
+                                    <img src="./images/WEB/CARROUSSEL-WEB/foto1.png" class="d-block w-100 car-img"
+                                        alt="CRIANÇAS MONTANDO ROBO">
+                                    <div class="text-center bg-black py-2 text-white caption-title">Construção inicial
+                                        do robo para a competição.</div>
+                                </div>
+                            </div>
+<!-- TERCEIRO ITEM (FOTO DA ROBOCUP) -->
+                            <div class="carousel-item">
+                                <div class="border-rounded">
+                                    <img src="./images/SI/Misc/RobocupFOTOsi.jpg" class="d-block w-100 car-img"
+                                        alt="IMAGEM DO CHIP APX-100">
+                                    <div class="text-center bg-black py-2 text-white caption-title">Batalhas na FIAP
+                                        Robocup 2022.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSecondSection"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSecondSection"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <h2 class="txt-title mt-3 text-primary fw-bold">FIAP e Robocup</h2>
+                    <h5 class="text-secondary">Como nossos estagiários carregam o nome <span
+                            class="text-primary fw-bold">Aphelios</span>.</h5>
+                    <p class="text-white">Alguns de nossos estagiários apresentaram um projeto para a competição <span
+                            class="text-primary">ROBOCUP</span>, da instituição de ensino <span
+                            class="text-danger">FIAP</span>, colocando em prática as lições dadas pelo nosso time,
+                        criaram o robo para competição com o mesmo nome que a nossa startup.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- QUARTA SEÇÃO (INVESTIMENTO) -->
+    <section id="investimentos">
+        <h1 class="text-center text-white section-title fw-bold">INVESTIMENTO</h1>
+        <div class="container container-demanda">
+<!-- TEXTO PROJECOES DE DEMANDA -->
+            <h1 class="text-primary fw-bold text-center mt-5 fs-1">Projeções de Demanda</h1>
+            <h2 class="text-white text-center fs-4">O Futuro da Robótica Educacional</h2>
+            <p class="text-secondary text-center fs-4">Antecipar <span class="text-primary">tendências</span> e moldar o
+                <span class="text-primary">futuro</span> é nosso compromisso. Abaixo, apresentamos projeções baseadas em
+                <span class="text-primary">análises rigorosas</span>, refletindo o imenso potencial da robótica na
+                educação.</p>
+        </div>
+<!-- ACORDEON DAS PROJECOES -->
+        <div class="accordion container" id="accordionExample">
+<!-- ITEM 1 (PROJECOES DE CRESCIMENTO) -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed btn-ac-center text-center  btn-proje" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+<!-- HEADER DO ITEM 1 -->
+                        Projeções de Crescimento <span class="text-primary"><i class="bi bi-caret-down"></i></span>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-6">
+<!-- CONTEUDO DO ITEM 1 -->
+                                <h2 class="fs-3 text-white">Diante de um cenário em constante evolução, nos preparamos
+                                    <span class="text-primary fs-1">antecipando tendências</span>.</h2>
+                                <p class="text-secondary">Apresentamos aqui nossas <span class="text-primary">projeções
+                                        futuras</span>, fundamentadas em rigorosas <span class="text-primary">pesquisas
+                                        de mercado</span>, <span class="text-primary">tendências emergentes</span> e
+                                    <span class="text-primary">parcerias estratégicas</span>.</p>
+                                <ul class="mt-4 text-secondary ul-custom">
+                                    <li class="lista-final li-custom ms-1 text-white">Baseadas em <span>estudos de
+                                            mercado</span>.</li>
+                                    <li class="lista-final li-custom ms-1 text-white">Visando <span>tendências
+                                            educacionais</span>.</li>
+                                    <li class="lista-final li-custom ms-1 text-white"><span>Análises</span> íntegras do
+                                        desenvolvimento robótico global.</li>
+                                    <li class="lista-final li-custom ms-1 text-white">Feedback de<span> clientes e
+                                            investidores</span>.</li>
+                                </ul>
+                            </div>
+<!-- GRAFICO E TEXTO PARA O ITEM 1 -->
+                            <div class="col-md-6">
+                                <div id="imageSecondSection" class="image-section">
+                                    <div class="border-rounded">
+                                        <img src="./images/SI/PROJECOES/Grafico1.jpg" class="d-block w-100 car-img"
+                                            alt="BLUEPRINT DO ROBO FEITO PARA A ROBOCUP">
+                                        <div class="text-center bg-black py-2 text-white caption-title">Acima, o gráfico
+                                            de projeções futuras da <span class="text-primary fw-bold">Aphelios</span>.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- ITEM 2 (DEMANDA DO MERCADO) -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed btn-ac-center text-center  btn-proje" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                        aria-controls="collapseTwo">
+<!-- HEADER DO ITEM 2 -->
+                        Demanda do Mercado <span class="text-primary"><i class="bi bi-caret-down"></i></span>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-6">
+<!-- CONTEUDO DO ITEM 2 -->
+                                <h2 class="fs-3 text-white">Observamos cuidadosamente o fluxo do mercado da robótica,
+                                    observando a <span class="text-primary fs-1">aumenta da demanda</span>.</h2>
+                                <p class="text-secondary">Com os avanços nas áreas da <span
+                                        class="text-primary">tecnologia</span> e da <span
+                                        class="text-primary">robótica</span>, pudemos concluir que a demanda por nossos
+                                    produtos e serviços terão <span class="text-primary">aumentos significativos</span>
+                                    nos próximos anos.</p>
+                                <ul class="mt-4 text-secondary ul-custom">
+                                    <li class="lista-final li-custom ms-1 text-white">Inovações
+                                        <span>tecnológicas</span>.</li>
+                                    <li class="lista-final li-custom ms-1 text-white">Análises de <span>dados e
+                                            vendas</span>.</li>
+                                    <li class="lista-final li-custom ms-1 text-white"><span>Estudos</span> dos
+                                        concorrentes.</li>
+                                    <li class="lista-final li-custom ms-1 text-white">Participações em<span> feiras e
+                                            conferências</span>.</li>
+                                </ul>
+                            </div>
+<!-- GRAFICO E TEXTO DO ITEM 2 -->
+                            <div class="col-md-6">
+                                <div id="imageSecondSection" class="image-section">
+                                    <div class="border-rounded">
+                                        <img src="./images/SI/PROJECOES/Grafico2.jpg" class="d-block w-100 car-img"
+                                            alt="BLUEPRINT DO ROBO FEITO PARA A ROBOCUP">
+                                        <div class="text-center bg-black py-2 text-white caption-title">Representa o
+                                            aumento potencial da <span class="text-primary">demanda</span> nos próximos
+                                            anos.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- ITEM 3 (FEEDBACK DOS CLIENTES) -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed btn-ac-center text-center  btn-proje" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                        aria-controls="collapseThree">
+<!-- HEADER DO ITEM 3 -->
+                        Feedback do Cliente <span class="text-primary"><i class="bi bi-caret-down"></i></span>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-6">
+<!-- CONTEUDO DO ITEM 3 -->
+                                <h2 class="fs-3 text-white">Valorizamos e respeitamos o <span
+                                        class="text-primary fs-1">feedback de
+                                        clientes</span>.</h2>
+                                <p class="text-secondary">A voz de nossos clientes é <span
+                                        class="text-primary">crucial</span>. Por isso, investimos
+                                    fortemente em <span class="text-primary">canais de feedback</span> e mantemos um
+                                    diálogo aberto com nossos usuários,
+                                    entendendo suas <span class="text-primary">necessidades</span>, <span
+                                        class="text-primary">desafios</span> e <span
+                                        class="text-primary">expectativas</span> em relação à robótica.</p>
+                                <ul class="mt-4 text-secondary ul-custom">
+                                    <li class="lista-final li-custom ms-1 text-white"><span>Enquetes</span> e
+                                        Questionários.</li>
+                                    <li class="lista-final li-custom ms-1 text-white">Reuniões de <span>Feedback.</span>
+                                    </li>
+                                    <li class="lista-final li-custom ms-1 text-white">Plataforma de
+                                        <span>Avaliação.</span></li>
+                                    <li class="lista-final li-custom ms-1 text-white"><span>Monitoramento</span> de
+                                        Redes Sociais.
+                                    </li>
+                                    <li class="lista-final li-custom ms-1 text-white">Programa de
+                                        <span>Fidelidade</span>.</li>
+                                </ul>
+                            </div>
+<!-- GRAFICO E TEXTO DO ITEM 3 -->
+                            <div class="col-md-6">
+                                <div id="imageSecondSection" class="image-section">
+                                    <div class="border-rounded">
+                                        <img src="./images/SI/PROJECOES/Grafico3.jpg" class="d-block w-100 car-img"
+                                            alt="BLUEPRINT DO ROBO FEITO PARA A ROBOCUP">
+                                        <div class="text-center bg-black py-2 text-white caption-title">Dados coletados
+                                            por nossas <span class="text-primary">pesquisas de satisfação</span>.</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- SEÇÃO DOS PLANOS DE INVESTIMENTO -->
+        <div class="container">
+            <h2 class="text-secondary text-center fs-5 mt-5"><span class="fs-3 text-white">Na <span
+                        class="text-primary">Aphelios</span>, valorizamos uma relação transparente com nossos
+                    investidores.</span> Estamos comprometidos em manter uma comunicação clara e discussões regulares
+                sobre os futuros planos da empresa. Para facilitar a participação de qualquer pessoa interessada nessa
+                jornada conosco, desenvolvemos três níveis de investimento: <span class="text-white fs-4">Silver</span>,
+                <span class="text-warning fs-4">Gold</span> e <span class="text-info fs-4">Platinum</span>. Cada nível
+                oferece oportunidades exclusivas de envolvimento e benefícios, permitindo que você escolha a opção que
+                melhor se adapta às suas metas e interesses.</h2>
+            <h4 class="text-center text-white mt-5 fw-bold">Clique nos <span class="text-primary fw-bold">planos</span>
+                abaixo para saber mais. <br> <span class="text-primary"><i class="bi bi-chevron-down"></i></span></h4>
+        </div>
+<!-- ACORDEON DA SECAO PLANOS DE INVESTIMENTO -->
+        <section id="niveis">
+            <div class="accordion accordion-flush container mt-5" id="accordionFlushExample">
+                <div class="accordion-item">
+<!-- PLANO DE INVESTIMENTO SILVER -->
+                    <h2 class="accordion-header">
+                        <button class="accordion-button silver-btn collapsed btn-ac-center text-center fs-4"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                            aria-expanded="false" aria-controls="flush-collapseOne">
+                            Silver
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-center text-white">
+<!-- TEXTO DO PLANO SILVER -->
+                            <h4 class="fs-3 mt-5 text-secondary">A entrada para o futuro da educação robótica começa
+                                aqui. O plano <span class="text-white fw-bold">Silver</span> é especialmente projetado
+                                para
+                                aqueles que querem ter uma ideia do impacto transformador que a <span
+                                    class="text-primary">Aphelios</span> está trazendo para a educação.</h4>
+                            <div class="row">
+                                <div class="col-md-6 mt-5">
+                                    <span class="text-white">Os investidores deste nível terão acesso a atualizações
+                                        regulares sobre as atividades do projeto <span
+                                            class="text-primary">FUTURE</span>
+                                        e serão convidados para demonstrações de projetos concluídos por nossos jovens
+                                        aprendizes.</span>
+                                </div>
+                                <div class="col-md-6 mt-5">
+                                    <li>Atualizações regulares do projeto <span class="text-primary">FUTURE</span></li>
+                                    <li>Acesso a eventos exclusivos da <span class="text-primary">Aphelios</span></li>
+                                    <li>Convites para <span class="text-primary">demonstrações</span></li>
+                                </div>
+<!-- BOTAO DO PLANO SILVER -->
+                                <div class="container text-center mt-5 mb-5">
+                                    <button class="btn btn-light rounded-5 fs-3 p-3 btn-silver-assinar">Assinar plano
+                                        Silver</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+<!-- PLANO DE INVESTIMENTO GOLD -->
+                    <h2 class="accordion-header">
+                        <button class="accordion-button gold-btn collapsed btn-ac-center text-center fs-3" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            <span class="text-warning">Gold</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-center text-white">
+<!-- TEXTO DO PLANO GOLD -->
+                            <h4 class="fs-3 mt-5 text-secondary">Aprofundando-se no coração da revolução educacional, os
+                                investidores <span class="text-warning fw-bold">Gold</span> desfrutam de benefícios mais
+                                extensivos.</h4>
+                            <div class="row">
+                                <div class="col-md-6 mt-5">
+                                    <span class="text-white">Além de receberem todas as vantagens do plano Silver, eles
+                                        têm a oportunidade de visitar nossas instalações, observar as aulas práticas em
+                                        andamento e interagir diretamente com os estudantes e instrutores, também
+                                        recebem convites para seminários exclusivos onde discutimos <span
+                                            class="text-warning">tendências e inovações</span></span>.
+                                </div>
+                                <div class="col-md-6 mt-5">
+                                    <li><span class="text-warning">Todas</span> as vantagens inclusas no plano Silver.
+                                    </li>
+                                    <li>Oportunidade de visitar as <span class="text-warning">instalações</span> da
+                                        empresa.</li>
+                                    <li>Convites para seminários <span class="text-warning">exclusivos</span> da
+                                        Aphelios.</li>
+                                    <li><span class="text-warning">Networking</span> com outros investidores e
+                                        especialistas na área.</li>
+                                </div>
+<!-- BOTAO DO PLANO GOLD -->
+                                <div class="container text-center mt-5 mb-5">
+                                    <button class="btn btn-light rounded-5 fs-3 p-3 btn-gold-assinar">Assinar plano
+                                        Gold</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- PLANO DE INVESTIMENTO PLATINUM -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button platinum-btn collapsed btn-ac-center text-center fs-2"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                            aria-expanded="false" aria-controls="flush-collapseThree">
+                            <span class="text-info">Platinum</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-center text-white">
+<!-- TEXTO DO PLANO PLATINUM -->
+                            <h4 class="fs-3 mt-5 text-secondary">Comprometa-se com o coração da nossa visão com o plano
+                                <span class="text-info fw-bold">Platinum</span>.</h4>
+                            <div class="row">
+                                <div class="col-md-6 mt-5">
+                                    <span class="text-white">O plano <span class="text-info">Platinum</span> é destinado
+                                        àqueles totalmente dedicados à vanguarda da educação robótica. Além dos
+                                        benefícios dos planos anteriores, investidores desse nível participam de
+                                        workshops estratégicos, oferecem insights para a evolução da Aphelios e têm a
+                                        chance de co-patrocinar eventos e módulos, influenciando diretamente o projeto
+                                        <span class="text-info">FUTURE</span>.</span>
+                                </div>
+                                <div class="col-md-6 mt-5">
+                                    <li><span class="text-info">Todos</span> os benefícios dos planos Silver e Gold</li>
+                                    <li>Participação em workshops estratégicos <span class="text-info">exclusivos</span>
+                                    </li>
+                                    <li>Oferecer insights e ideias para a evolução da <span
+                                            class="text-info">Aphelios</span></li>
+                                    <li>Papel ativo na expansão e enriquecimento do projeto <span
+                                            class="text-info">FUTURE</span></li>
+                                    <li>Reconhecimento como parceiro <span class="text-info">líder</span> na
+                                        transformação da educação robótica</li>
+                                    <li><span class="text-info">Muito Mais</span></li>
+                                </div>
+<!-- BOTAO DO PLANO PLATINUM -->
+                                <div class="container text-center mt-5 mb-5">
+                                    <button class="btn btn-light rounded-5 fs-3 p-3 btn-platinum-assinar">Assinar plano
+                                        Platinum</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+<!-- SEÇÃO POR QUE ESCOLHER A APHELIOS? -->
+        <section>
+            <div class="row container-fluid">
+                <div class="col-md-6">
+                    <img class="img-fluid svg-pq" src="./images/SI/Misc/chat-bot-animate.svg"
+                        alt="SVG PESSOAS CONVERSANDO ONLINE">
+                </div>
+                <div class="col-md-6 txt-margem">
+                    <h1 class="text-primary txt-svg">Nosso<br>Compromisso</h1>
+                    <h3 class="text-white txt-porque">Por que Escolher a Aphelios?</h3>
+                    <ul class="mt-3 text-secondary ul-custom">
+                        <li class="lista-final li-custom">Eventos <span>Exclusivos</span></li>
+                        <li class="lista-final li-custom"><span>Assistência Técnica</span> de Elite</li>
+                        <li class="lista-final li-custom">Treinamentos para <span>Estagiários</span></li>
+                        <li class="lista-final li-custom">Acompanhamento de <span>Satisfação</span></li>
+                        <li class="lista-final li-custom"><span>Responsabilidade</span> no Pós-Venda</li>
+                        <li class="lista-final li-custom"><span>Canais Diretos</span> de Comunicação</li>
+                        <li class="lista-final li-custom"><span>Plataformas Intuitivas</span> de Suporte</li>
+                        <li class="lista-final li-custom">Engajamento Profundo com <span>Investidores</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+<!-- SEÇÃO VIDEO CONTATO -->
+        <section id="contato2" class="video-section">
+            <h1 class="section-title text-center fw-bold">CONTATO</h1>
+            <div class="video">
+                <video width="100%" height="auto" preload="metadata" loop autoplay muted>
+                    <source class="video-final" src="./images/SI/Misc/VideoContato.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+                <div class="video-text">
+                    <h1 class="texto1-video-final">Quer se manter informado sobre as atualizações da <span
+                            class="text-primary fw-bold">Aphelios</span>?</h1>
+                    <h2 class="texto2-video-final">Tem alguma <span class="text-primary">pergunta</span> ou <span
+                            class="text-primary">sugestão</span>?</h2>
+                    <p class="text-primary textoVideoContato">Entre em contato com o nosso time!</p>
+                    <form>
+                        <label class="emailLabel" for="exampleInputEmail1" class="form-label text-white">Seu
+                            E-Mail:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-white text-center">(Nunca o compartilharemos com
+                            ninguém)</div>
+                        <button type="submit" class="btn btn-primary btn-form btn-videofinal">Entrar em Contato <i
+                                class="bi bi-box-arrow-in-right"></i></button>
+                        <div class="d-flex justify-content-center">
+                            <a href="" style="text-decoration: none;">
+                                <i class="bi bi-discord icon-vid"></i>
+                            </a>
+                            <a href="http://www.linkedin.com/in/guilherme-silva-cavalcanti-4a9716263" target="_blank"
+                                style="text-decoration: none;">
+                                <i class="bi bi-linkedin icon-vid"></i>
+                            </a>
+                            <a href="" target="_blank" style="text-decoration: none;">
+                                <i class="bi bi-whatsapp icon-vid"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+<!-- SEÇÃO FOOTER -->
+        <footer class="bg-black text-white py-5 pb-1">
+            <div class="container">
+                <div class="row justify-content-center">
+<!-- PRIMEIRA COLUNA -->
+                    <div class="col-md-3">
+                        <h5 class="text-center">FIAP</h5>
+                        <ul class="list-unstyled text-center">
+                            <li><a href="https://www.fiap.com.br/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0aBQ1uXiOlGl2JCqJFf_aAOHRd5ufPAA9iu5xZoaW3dXQuj-30OoIaAr0tEALw_wcB"
+                                    class="">Contato</a></li>
+                            <li><a href="https://www.fiap.com.br/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0aBQ1uXiOlGl2JCqJFf_aAOHRd5ufPAA9iu5xZoaW3dXQuj-30OoIaAr0tEALw_wcB"
+                                    class="">Eventos</a></li>
+                            <li><a href="https://www.fiap.com.br/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0aBQ1uXiOlGl2JCqJFf_aAOHRd5ufPAA9iu5xZoaW3dXQuj-30OoIaAr0tEALw_wcB"
+                                    class="">Informações</a></li>
+                        </ul>
+                    </div>
+<!-- ESPAÇO -->
+                    <div class="col-md-1"></div>
+<!-- SEGUNDA COLUNA-->
+                    <div class="col-md-3">
+                        <h5 class="text-center">APHELIOS</h5>
+                        <ul class="list-unstyled text-center">
+                            <li><a href="#inicio" class="">Contato</a></li>
+                            <li><a href="#inicio" class="">Newsteller</a></li>
+                            <li><a href="#inicio" class="">Projetos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-black d-flex justify-content-center align-items-center">
+                <a href="#inicio" class="btn p-3 text-center mb-3 btn-final">
+                    Voltar para o Início<br>
+                    <i class="bi bi-arrow-bar-up"></i>
+                </a>
+            </div>
+            <div class="text-center d-flex align-items-center justify-content-center">
+                <img src="./images/Misc/FIAPLOGO.png" alt="LOGO FIAP DO FOOTER" class="FIAP-icon mb-2 ">
+            </div>
+            <div class="text-center d-flex align-items-center justify-content-center">
+                <img src="./images/Misc/apheliosLOGO.png" alt="LOGO APHELIOS DO FOOTER" class="aphelios-icon mb-2">
+            </div>
+        </footer>
+        <div class="container-fluid bg-dark">
+            <h2 class="text-center my-1 p-2 fiap-txt">Faculdade de Informática e Administração Paulista - PEDRO
+                CAVARIANI - 2023 - 1SIR -
+                APHELIOS © </h2>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+<!-- CHAMADA JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./js/app.js"></script>
+</body>
+</html>

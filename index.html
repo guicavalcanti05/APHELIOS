@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+                                                                    <!-- PAGINA PRINCIPAL (SPRINT WEB) -->
+<!-- FAVICON -->
+    <link rel="icon" href="./images/Misc/favicon-16x16.png" type="image/png">
+<!-- TITULO -->
+    <title>APHELIOS | WEB STANDARDS</title>
+<!-- CHAMADA ICONES DO BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CHAMADA GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- CHAMADA STYLESHEETS -->
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="stylesheet" href="./stylesheets/mobiletweaks.css">
+</head>
+
+<body>
+<!-- BARRA DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary navbar-horizontal">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mt-2">
+                        <a class="nav-link" aria-current="page" href="#galeria">
+                            <i class="bi bi-card-image fs-3 icon-nav"></i>
+<!-- ICONE GALERIA -->
+                            <span class="icon-text">Galeria</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a href="#info" class="nav-link">
+                            <i class="bi bi-info-circle fs-3 icon-nav"></i>
+<!-- ICONE INFORMACOES -->
+                            <span class="icon-text">Informações</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="#">
+                            <i class="bi bi-house fs-3 icon-nav "></i>
+<!-- ICONE DE INICIO (HOME) -->
+                            <span class="icon-text">Inicio</span>
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="#equipe">
+                            <i class="bi bi-people-fill fs-3 icon-nav"></i>
+<!-- ICONE EQUIPE -->
+                            <span class="icon-text">Equipe</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mt-2" href="#robocup">
+                            <i class="bi bi-robot fs-3 icon-nav "></i>
+<!-- ICONE ROBOCUP | FIAP NEXT -->
+                            <span class="icon-text">Robocup<br><span class="text-danger fw-bold">FIAP NEXT</span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- SEÇÃO DE ABERTURA (IMAGEM DE ONDA | LOGO APHELIOS E TEXTO) -->
+    <section id="inicio">
+        <div class="container-fluid container-onda " id="icons-container">
+            <img src="./images/Misc/onda.jpg" alt="IMAGEM DE ONDA PARA BACKGROUND" class="img-fluid onda" />
+            <div class="overlay-content">
+                <!-- IMAGEM DE FUNDO AZUL -->
+                <img class="icon-aphelios img-fluid" src="./images/Misc/apheliosLOGO.png" alt="LOGO APHELIOS INICIO" />
+                <!-- LOGO APHELIOS E TEXTO -->
+                <h1 class="text-center text-white text-aphelios section-title fw-bold">
+                    A&nbsp;P&nbsp;H&nbsp;E&nbsp;L&nbsp;I&nbsp;O&nbsp;S
+                </h1>
+                <!-- BOTOES SPRINT -->
+                <div class="d-flex align-items-center justify-content-center btn-sprint mt-5">
+                    <a href="PAGINASISTEMAS.html">
+                        <button class="btn btn-pagina">SPRINT SISTEMAS DE INFORMAÇÃO<br><i
+                                class="bi bi-arrow-bar-up"></i></button>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="#galeria">
+                        <button class="btn btn-pagina text-white fw-bold">SPRINT WEB STANDARDS<br><i
+                                class="bi bi-arrow-bar-down"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+    </section>
+<!-- SEÇÃO CARROSSEL DE IMAGENS -->
+    <h1 id="galeria" class="text-center text-white fw-bold section-title">G A L E R I A</h1>
+    <section class="cont-car container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner rounded-2">
+                <div class="carousel-item active">
+<!-- CARROSSEL IMAGEM 1 -->
+                    <img src="./images/WEB/CARROUSSEL-WEB/foto0.jpg" class="d-block w-100" alt="BLUEPRINT DO ROBO">
+                    <div class="txt-carrousel-1 text-center bg-black mt-2 text-white caption-title"><span
+                            class="text-white"><span class="text-primary">Protótipo</span> inicial do robo, feito pelos
+                            integrantes do grupo.</div>
+                </div>
+                <div class="carousel-item">
+<!-- CARROSSEL IMAGEM 2 -->
+                    <img src="./images/WEB/CARROUSSEL-WEB/foto1.png" class="d-block w-100" alt="FOTO DA ARMA DO ROBO">
+                    <div class="txt-carrousel-1 text-center bg-black mt-2  text-white caption-title"><span
+                            class="text-white"><span class="text-white"><span class="text-primary">Aphelios</span> e sua
+                                arma, o <span class="text-primary">leque com agulhas</span>.</div>
+                </div>
+                <div class="carousel-item">
+<!-- CARROSSEL IMAGEM 3 -->
+                    <img src="./images/WEB/CARROUSSEL-WEB/foto2.png" class="d-block w-100"
+                        alt="FOTO DAS CONEXOES | CIRCUITOS DO ROBO">
+                    <div class="txt-carrousel-1  text-center bg-black mt-2  text-white caption-title">Nosso robo é
+                        controlado por um <span class="text-primary">Arduino</span>, que se comunica com o <span
+                            class="text-primary">módulo Bluetooth</span>.</div>
+                </div>
+                <div class="carousel-item">
+<!-- CARROSSEL IMAGEM 4 -->
+                    <img src="./images/WEB/CARROUSSEL-WEB/foto3.png" class="d-block w-100" alt="FOTO DA FRENTE DO ROBO">
+                    <div class="txt-carrousel-1  text-center bg-black mt-2  text-white caption-title"><span
+                            class="text-white"><span class="text-white">Utilizamos <span
+                                    class="text-primary">sensores</span> espalhados pelo seu frame para mandar
+                                informações de abertura para a arma.</div>
+                </div>
+                <div class="carousel-item">
+<!-- CARROSSEL IMAGEM 5 -->
+                    <img src="./images/WEB/CARROUSSEL-WEB/foto4.png" class="d-block w-100"
+                        alt="FOTO ALUNOS FAZENDO O ROBO">
+                    <div class="txt-carrousel-1 text-center bg-black mt-2  text-white caption-title"><span
+                            class="text-white"><span class="text-white">Alunos do grupo finalizando o projeto na <span
+                                    class="text-primary">FIAP</span>.</div>
+<!-- BOTOES DO CARROSSEL -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="col-md-6">
+    </section>
+<!-- TEXTO EMBAIXO DO CARROSSEL -->
+    <section class="container-fluid">
+        <p class="text-meio text-center  fs-5 p-5"><span class="text-white fs-2"><span class="highlight">Aphelios</span>
+                é um robô desenvolvido por
+                alunos da <span class="text-danger">FIAP</span>.<br> </span>
+                <span class="txt-intro">Esse projeto foi criado especificamente para a competição ROBOCUP, promovida pela instituição.</span> <br>
+                <span class="txt-intro">Equipes de alunos dedicaram-se durante meses ao desenvolvimento e criação de seus próprios robôs.</span> <br> 
+                <span class="txt-intro fs-5">A competição consiste em uma batalha onde os robôs têm que estourar um balão fixado em seus adversários.</span></p>
+    </section>
+    </div>
+    <h1 id="info" class="text-center text-white fw-bold text-info mb-2 section-title">I N F O R M A Ç Õ E S </h1>
+<!-- CARDS COM IMAGENS -->
+    <section class="container-cards">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+<!-- PRIMEIRO CARD -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./images/WEB/CARDS-WEB/constru.jpeg" class="card-img-top" alt="FOTO DO ROBO ABERTO">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold ">Materiais leves</h5>
+                            <p class="card-text text-center">Utilizamos chapas de MDF para garantir <span>leveza</span>
+                                <br> e
+                                <span>agilidade</span>
+                                durante a competição.</p>
+                        </div>
+                    </div>
+                </div>
+<!-- SEGUNDO CARD -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./images/WEB/CARDS-WEB/tecno.jpg" class="card-img-top" alt="FOTO CLOSE DO ARDUINO">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold ">Arduino </h5>
+                            <p class="card-text text-center">O módulo <span>Bluetooth</span> se conecta a um aparelho
+                                <br>android,
+                                que
+                                envia sinais de movimento <br>para os motores acoplados as rodas.</p>
+                        </div>
+                    </div>
+                </div>
+<!-- TERCEIRO CARD -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./images/WEB/CARDS-WEB/arma.jpeg    " class="card-img-top"
+                            alt="FOTO DO LEQUE DO ROBO ABERTO">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-bold ">Arma </h5>
+                            <p class="card-text text-center">Possui um leque com agulhas nas
+                                pontas, que
+                                garante <span>eficácia</span> e alta velocidade de ativação do mecanismo de ofensa de
+                                Aphelios. </p>
+                        </div>
+                    </div>
+                </div>
+<!-- QUARTO CARD -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="./images/WEB/CARDS-WEB/movimentacao.jpeg" class="card-img-top" alt="FOTO DO ROBO VIRADO DE CABEÇA PRA BAIXO">
+                        <div class="card-body">
+                        <h5 class="card-title text-center fw-bold ">Movimentação</h5>
+                        <p class="card-text text-center">Equipado com tres rodas, diretamente acopladas
+                            aos motores que recebem <span>direções de movimento</span> do módulo Bluetooth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<!-- SEÇÃO PARA OS VIDEOS DE CONSTRUÇÃO E MOVIMENTAÇÃO -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+<!-- VIDEO NO LADO ESQUERDO -->
+            <div class="col-12 col-md-6 video-1 videoframe">
+                <iframe class="rounded-4" width="100%" height="auto" 
+                src="https://www.youtube.com/embed/RWVOiMtB4Uo?autoplay=1&controls=0&loop=1&mute=1&playlist=RWVOiMtB4Uo" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>        
+            </div>
+<!-- TEXTO NO LADO DIREITO -->
+            <div class="col-12 col-md-6 texto-video">
+                <h2 class="fs-1  text-center text-main fw-bold">Construção</h2>
+                <p class="text-white  text-center">O robô é feito com materiais leves e tem um design compacto. O Bluetooth e o Arduino estão seguramente guardados em seu interior. A arma, localizada na frente, tem a inclinação certa para acertar o balão do adversário. Ele também conta com sensores que controlam a arma, movendo o leque por meio de um servomotor.</p>
+            </div>
+        </div>
+    </div>
+<!-- SEÇÃO DE VIDEOS INVERSA -->
+    <div class="container mt-5">
+        <div class="row align-items-center">
+<!-- TEXTO NO LADO ESQUERDO -->
+            <div class="col-12 col-md-6 texto-video d-flex flex-column align-items-center">
+                <h2 class="fs-1  text-center text-main fw-bold">Tecnologias</h2>
+                <p class="text-white  text-center ">O robô é capaz de realizar movimentos precisos graças à
+                    interação do módulo Bluetooth com os motores das rodas, o corpo leve proporciona agilidade e precisão nos movimentos. </p>
+            </div>
+<!-- VIDEO NO LADO DIREITO -->
+            <div class="col-12 col-md-6 video-1 videoframe margem-mobile-vid-2">
+                <iframe class="rounded-4" width="100%" height="auto" 
+        src="https://www.youtube.com/embed/F6nqeoCKHmg?autoplay=1&controls=0&loop=1&mute=1&playlist=F6nqeoCKHmg" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+            </div>
+        </div>
+    </div>
+<!-- SEÇÃO ACCORDION -->
+    <section id="equipe">
+        <h1 id="info" class="text-center text-white fw-bold text-info mt-5 section-title">E Q U I P E</h1>
+        <div class="accordion accordion-flush container mt-5" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+<!-- ACCORDION ITEM 1 -->
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Sobre o Evento
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong class="text-primary ">A FIAP RoboCup é uma competição organizada pela <span class="text-danger">FIAP</span>.</strong>
+                        <p class="class text-white">Uma instituição de ensino superior localizada em São Paulo. O evento
+                            reúne estudantes de diferentes idades, desde crianças até jovens universitários, que
+                            competem em equipes para projetar, construir e programar robôs autônomos para resolver
+                            desafios específicos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+<!-- ACCORDION ITEM 2 -->
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Time Aphelios
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong class="text-primary ">O nome "Aphelios" foi inspirado no afélio, que é o ponto na órbita
+                            de um planeta onde ele está mais distante do Sol. A equipe escolheu esse nome para
+                            representar a ideia de explorar as fronteiras da tecnologia e ir além dos limites
+                            convencionais.</strong>
+                        <p class="text-white">
+                            A equipe "Aphelios", composta por alunos do 1SIR da FIAP, se reuniu durante um semestre para
+                            criar o robô "Aphelios". Realizaram reuniões regulares para discutir ideias e tarefas,
+                            dividiram responsabilidades com base em suas especialidades.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+<!-- ACCORDION ITEM 3 -->
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Contato
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="accordion-body">
+                            <h1 class="text-primary fw-bold fs-4">Integrantes:</h1>
+                            <h2 class="fs-5 text-white">
+                                Guilherme Silva Cavalcanti - RM98928 |
+                                <a href="mailto:pedro.ruvieri@email.com"><i class="bi bi-envelope"></i></a>
+                                <a href="http://www.linkedin.com/in/guilherme-silva-cavalcanti-4a9716263" target="_blank"
+                                    style="text-decoration: none;">
+                                    <i class="bi bi-linkedin icon-vid"></i>
+                                </a>
+                            </h2>
+                            <h2 class="fs-5 text-white">
+                                Pedro Ruvieri Cavariani - RM551380 |
+                                <a href="mailto:pedro.ruvieri@email.com"><i class="bi bi-envelope"></i></a></h2>
+                            <h2 class="fs-5 text-white">
+                                Juan José Alvarez Zambrana - RM551896 |
+                                <a href="mailto:pedro.ruvieri@email.com"><i class="bi bi-envelope"></i></a></h2>
+                            <h2 class="fs-5 text-white">
+                                Wesley Assis Oliveira - RM552516 |
+                                <a href="mailto:pedro.ruvieri@email.com"><i class="bi bi-envelope"></i></a></h2>
+                            <h2 class="fs-5 text-white">
+                                Lucas Lopes Maccari RM550258 |
+                                <a href="mailto:pedro.ruvieri@email.com"><i class="bi bi-envelope"></i></a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- SEÇÃO FORMULARIO COM SVG ANIMADO -->
+            <div class="row ms-4">
+                <div class="col-md-6 mt-5">
+                    <div>
+<!-- FORMULARIO E TEXTO -->
+                        <h1 class="text-white fs-5 mt-5 text-center pt-3">
+                            Quer acompanhar de perto o desenvolvimento?<br>
+                            <p class="text-primary fs-1">Inscreva-se agora!</p>
+                        </h1>
+                    </div>
+                    <form>
+                        <div class="mb-3 mt-5">
+                            <label for="exampleInputEmail1" class="form-label text-white">Seu E-Mail:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-white text-center">(Nunca o compartilharemos com
+                                ninguém)</div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button onclick="event.preventDefault();" class="btn btn-primary btn-form mt-2">Assinar
+                                Newsteller</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+<!-- SVG  -->
+                    <img src="./images/Misc/svg form.svg" alt="" class="SVG HOMEM COM CELULAR E APLICATIVOS VOANDO">
+                </div>
+            </div>
+    </section>
+<!-- SEÇÃO ROBOCUP E FIAP NEXT -->
+    <section id="robocup">
+        <h1 class="text-center text-white fw-bold mt-5 section-title">
+            <span class="text-danger txt-final">FIAP NEXT</span> &nbsp; <span
+                class="text-primary text-center txt-final">ROBOCUP</span>
+        </h1>
+<!-- VIDEO ROBOCUP -->
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <iframe class="rounded p-5 vid-robocup w-100" src="https://www.youtube.com/embed/yqUDrLX8778"
+                allowfullscreen></iframe>
+        </div>
+<!-- SECAO FIAP NEXT -->
+        <div class="bg-black mb-5 container">
+            <h5 class="text-center text-white fs-4">"<span class="text-danger">NEXT</span> é o maior festival da FIAP. O
+                dia em que alunos e alunas lotam a arena e sobem ao palco para dar um verdadeiro show de criatividade,
+                inovação e tecnologia."
+            </h5>
+        </div>
+<!-- CAIXA DE TEXTO -->
+        <section>
+            <div class="container-img-next">
+                <img src="./images/WEB/ROBOCUP/ROBOCUP.jpg" alt="IMAGEM DA ROBOCUP DE FUNDO" class="img-fluid img-next">
+                <div class="content-overlay">
+<!-- LOGO ROBOCUP -->
+                    <div class="overlay-logo">
+                        <img src="./images/WEB/ROBOCUP/robocup_logo.png" alt="LOGO DA FIAP ROBOCUP"
+                            class="img-fluid overlay-text robo-logo">
+                    </div>
+                    <div class="align-items-center justify-content-center text-boxes">
+<!-- SEGUNDA CAIXA DE TEXTO -->
+                        <div class="container">
+                            <p class="text-center text-box-subtitle text-white mt-5 pt-5">"A <span
+                                    class="text-danger fw-bold">Robocup</span> é a competição mais antiga da FIAP.
+                                Alunos dos 1°s anos de Sistemas de Informação constroem robôs para participar de duelos,
+                                onde o principal objetivo é estourar o balão que o adversário carrega. Para isso, todas
+                                as máquinas possuem armas em seu corpo. Mas a competição também exige o funcionamento
+                                pleno do robô: após estourar o balão do oponente, ele deve recolher sua arma, só assim é
+                                considerado o vencedor."</p>
+                            <a href="https://www.fiap.com.br/next/" target="_blank" rel="noopener noreferrer"
+                                class="text-center text-box-title mt-5 btn btn-rounded">
+                                <span class="text-danger fw-bold">Saiba Mais</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- SEÇÃO FOOTER -->
+        <footer class="bg-black text-white py-5 pb-1">
+            <div class="container">
+                <div class="row justify-content-center">
+<!-- PRIMEIRA COLUNA -->
+                    <div class="col-md-3">
+                        <h5 class="text-center">FIAP</h5>
+                        <ul class="list-unstyled text-center">
+                            <li><a href="https://www.fiap.com.br/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0aBQ1uXiOlGl2JCqJFf_aAOHRd5ufPAA9iu5xZoaW3dXQuj-30OoIaAr0tEALw_wcB"
+                                    class="">Contato</a></li>
+                            <li><a href="https://www.fiap.com.br/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0aBQ1uXiOlGl2JCqJFf_aAOHRd5ufPAA9iu5xZoaW3dXQuj-30OoIaAr0tEALw_wcB"
+                                    class="">Eventos</a></li>
+                            <li><a href="https://www.fiap.com.br/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw0aBQ1uXiOlGl2JCqJFf_aAOHRd5ufPAA9iu5xZoaW3dXQuj-30OoIaAr0tEALw_wcB"
+                                    class="">Informações</a></li>
+                        </ul>
+                    </div>
+<!-- ESPAÇO -->
+                    <div class="col-md-1"></div>
+<!-- SEGUNDA COLUNA-->
+                    <div class="col-md-3">
+                        <h5 class="text-center">APHELIOS</h5>
+                        <ul class="list-unstyled text-center">
+                            <li><a href="#inicio" class="">Contato</a></li>
+                            <li><a href="#inicio" class="">Newsteller</a></li>
+                            <li><a href="#inicio" class="">Projetos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container bg-black d-flex justify-content-center align-items-center">
+                <a href="#inicio" class="btn p-3 text-center mb-3 btn-final">
+                    Voltar para o Início<br>
+                    <i class="bi bi-arrow-bar-up"></i>
+                </a>
+            </div>
+            <div class="text-center d-flex align-items-center justify-content-center">
+                <img src="./images/Misc/FIAPLOGO.png" alt="LOGO FIAP DO FOOTER" class="FIAP-icon mb-2 ">
+            </div>
+            <div class="text-center d-flex align-items-center justify-content-center">
+                <img src="./images/Misc/apheliosLOGO.png" alt="LOGO APHELIOS DO FOOTER" class="aphelios-icon mb-2">
+            </div>
+        </footer>
+        <div class="container-fluid bg-dark">
+            <h2 class="text-center my-1 p-2 fiap-txt">Faculdade de Informática e Administração Paulista - PEDRO
+                CAVARIANI - 2023 - 1SIR -
+                APHELIOS © </h2>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+<!-- CHAMADA JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./js/app.js"></script>
+</body>
+</html>
